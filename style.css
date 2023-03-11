@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgba(12, 255, 255, 0.882);
+    background-color: rgba(167, 225, 225, 0.882);
 }
 
 .navbar-toggler{
@@ -14,12 +14,13 @@ body {
 }
 
 .header {
+    height: 600px;
     padding-right: 40%;
     margin-top: 6%;
 }
 
 .header h1 {
-    color: rgba(20, 215, 215, 0.85);
+    color: rgba(11, 170, 170, 0.3);
 }
 
 .img-mobile {
@@ -36,6 +37,33 @@ body {
     top: 0%;
     padding: 10%;
     margin: 0 2%;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
     border-radius: 45px 0 0 45px;
+}
+
+.intro h1{
+        font-size: 67px;
+        font-weight: bold;
+}
+
+.intro ul li{
+    font-size: 27px;
+}
+
+.intro button{
+    padding: 2.5% 5%;
+    margin: 0 2%;
+}
+
+.heading{
+    padding: 0 24% 3% 24%;
+}
+
+.heading h1 span{
+    color: #fe3902;
+}
+
+.card{
+    background-color: rgba(11, 170, 170, 0.1);
+    
 }
