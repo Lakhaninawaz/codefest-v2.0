@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(12, 255, 255, 0.882);
+}
+
+.navbar-toggler{
+    justify-content: start;
+    z-index: 99;
+    border: none;
+}
+
+.header {
+    padding-right: 40%;
+    margin-top: 6%;
+}
+
+.header h1 {
+    color: rgba(20, 215, 215, 0.85);
+}
+
+.img-mobile {
+    top: 0%;
+    position: absolute;
+    left: 36%;
+    z-index: 99;
+}
+
+.intro {
+    background-color: #fe3902;
+    position: absolute;
+    left: 48%;
+    top: 0%;
+    padding: 10%;
+    margin: 0 2%;
+    padding-bottom: 20%;
+    border-radius: 45px 0 0 45px;
+}
